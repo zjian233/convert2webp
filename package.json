@@ -1,0 +1,20 @@
+{
+  "name": "compression",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "esbuild main.ts --bundle --platform=node --outfile=main.js && node main.js",
+    "build": "esbuild main.ts --bundle --platform=node --outfile=main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "esbuild": "0.19.11"
+  },
+  "dependencies": {
+    "sharp": "^0.33.1"
+  }
+}
